@@ -1,0 +1,64 @@
+.card {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    max-width: 300px;
+    min-width: 300px;
+    box-shadow: 0px 0px 2px #ccc;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 10px;
+}
+
+.main p {
+    word-break: normal;
+    max-width: 260px;
+}
+
+.type {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.type span {
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+
+}
+
+.enhancement {
+    background-color: plum;
+}
+
+.review {
+    background-color: green;
+}
+
+.design {
+    background-color: plum;
+}
+
+.docs {
+    background-color: orange;
+}
+
+.dev {
+    background-color: gold;
+}
+
+.bug {
+    background-color: crimson;
+}
